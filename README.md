@@ -1,7 +1,6 @@
 # 项目名称
 
 ## 代码核心功能说明
-本项目旨在通过机器学习算法对文本数据进行分类，主要功能包括：
 
 1. **文本预处理**：
    - 使用 `jieba` 进行中文分词。
@@ -13,7 +12,7 @@
    - **TF-IDF 模式**：使用 TF-IDF 算法提取文本特征，衡量词语的重要性。
 
 3. **模型训练与预测**：
-   - 使用多项式朴素贝叶斯分类器（`MultinomialNB`）对文本数据进行分类。
+   - 使用多项式朴素贝叶斯分类器对文本数据进行分类。
    - 提供预测功能，对未知文本进行分类。
 
 4. **灵活切换特征模式**：
@@ -67,7 +66,7 @@ vector = vectorizer.fit_transform(all_texts)
 ## 切换特征模式的方法
 
 ### 1. 使用高频词模式
-在代码中，通过调用 `get_top_words` 函数获取高频词列表，并基于这些高频词构建特征向量。以下是完整的代码示例：
+在代码中，通过调用 get_top_words 函数获取高频词列表，并基于这些高频词构建特征向量。以下是完整的代码示例：
 
 ```python
 # 获取高频词
@@ -92,7 +91,7 @@ vector = vectorizer.fit_transform(all_texts)
 ```
 
 ## 使用方法
-1. **安装依赖**：确保安装了 `numpy`、`scikit-learn`、`jieba` 等库。
+1. **安装依赖**：确保安装了 numpy、scikit-learn、jieba等库。
    ```bash
    pip install numpy scikit-learn jieba
    ```
