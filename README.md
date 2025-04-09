@@ -169,3 +169,18 @@ def predict(filename):
 print('151.txt 分类情况:{}'.format(predict('邮件_files/151.txt')))
 print('152.txt 分类情况:{}'.format(predict('邮件_files/152.txt')))
 ```
+
+![屏幕截图 2025-04-09 193038](https://github.com/user-attachments/assets/821e0e77-454c-450b-b8c7-05c346d10d00)
+
+
+
+
+![屏幕截图 2025-04-09 193027](https://github.com/user-attachments/assets/fcb4e9a6-7e2a-406d-8a24-da68f429afbd)
+
+
+
+# 样本平衡处理
+
+![屏幕截图 2025-04-09 193121](https://github.com/user-attachments/assets/3a4736e9-4981-47c8-bc50-536431ee863c)
+# 增加模型评估指标
+![屏幕截图 2025-04-09 193137](https://github.com/user-attachments/assets/04ae770c-0d7f-4376-901c-a0bd536e4fb7)
